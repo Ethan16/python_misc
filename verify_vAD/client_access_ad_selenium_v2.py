@@ -6,7 +6,7 @@ from selenium import webdriver
 """
 作者：zyc
 日期：2018-1-4
-功能：PC本地拉起Firefox，访问AD
+功能：PC本地拉起Firefox，访问AD。使用Selenium来判断标题
 """
 
 AD_WAN_URL = "http://80.80.80.10/"
