@@ -5,7 +5,7 @@ from selenium import webdriver
 
 """
 作者：zyc
-日期：2017-11-24
+日期：2018-1-4
 功能：PC本地拉起Firefox，访问AD
 """
 
