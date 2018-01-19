@@ -27,6 +27,10 @@ reptile = ['bs4', 'lxml', 'urllib3', 'requests', 'scrapy', 'beautifulsoup']
 vnc = ['vncdotool', 'pywinauto', 'paramiko', 'rdpy']
 openstack_lib = ['stevedore', 'sqlalchemy', 'eventlet']
 auto = ['SendKeys']
+web = ['django', 'tornado', 'web.py', 'flask']
+db = ['cx_Oracle', 'pymongo', 'redis', 'mysql']
+da = ['numpy', 'pandas', 'matplotlib',
+      'scipy', 'keras', 'Seaborn', 'TensorFlow']
 
-for fl in frequentlyLib+salmon:
+for fl in web + db:
     call("pip install "+fl, shell=True)
