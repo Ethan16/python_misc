@@ -81,7 +81,7 @@ Available subcommands:
     sqlmigrate
     sqlsequencereset
     squashmigrations
-    startapp
+    startapp blog
     startproject
     test
     testserver
