@@ -1,0 +1,23 @@
+# Memory
+used_memory:826848
+used_memory_human:807.47K
+used_memory_rss:7503872
+used_memory_rss_human:7.16M
+used_memory_peak:850864
+used_memory_peak_human:830.92K
+used_memory_peak_perc:97.18%
+used_memory_overhead:815318
+used_memory_startup:765688
+used_memory_dataset:11530
+used_memory_dataset_perc:18.85%
+total_system_memory:1832677376
+total_system_memory_human:1.71G
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+mem_fragmentation_ratio:9.07
+mem_allocator:jemalloc-4.0.3
+active_defrag_running:0
+lazyfree_pending_objects:0
