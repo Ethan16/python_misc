@@ -72,7 +72,7 @@ Available subcommands:
     inspectdb
     loaddata
     makemessages
-    makemigrations
+    makemigrations blog
     migrate
     sendtestemail
     shell
