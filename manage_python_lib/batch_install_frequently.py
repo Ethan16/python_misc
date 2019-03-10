@@ -23,7 +23,7 @@ frequentlyLib = ['wget', 'prettytable', 'sh', 'progressbar', 'colorama', 'uuid',
                  'pep8', 'pyvmomi', 'mock>=1.0', 'web.py', 'wxpython', 'pyopengl', 'pymo', 'pillow', 'django', 'pypi-uploader']
 salmon = ['pymongo', 'testtools', 'docker-py<=1.7.2,>=1.6.0', 'python-subunit>=0.0.18',
           'testrepository', 'os-testr', 'selenium', 'paramiko', 'IPy', 'castro']
-reptile = ['bs4', 'lxml', 'urllib3', 'requests', 'scrapy', 'beautifulsoup']
+reptile = ['bs4', 'lxml33222585', 'urllib3', 'requests', 'scrapy', 'beautifulsoup']
 vnc = ['vncdotool', 'pywinauto', 'paramiko', 'rdpy']
 openstack_lib = ['stevedore', 'sqlalchemy', 'eventlet']
 auto = ['SendKeys']
@@ -32,5 +32,5 @@ db = ['cx_Oracle', 'pymongo', 'redis', 'mysql']
 da = ['numpy', 'pandas', 'matplotlib',
       'scipy', 'keras', 'Seaborn', 'TensorFlow']
 
-for fl in web + db:
+for fl in web + db + frequentlyLib:
     call("pip install "+fl, shell=True)

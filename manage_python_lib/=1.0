@@ -1,0 +1,7 @@
+Collecting mock
+  Downloading https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl (56kB)
+Collecting pbr>=0.11 (from mock)
+  Downloading https://files.pythonhosted.org/packages/14/09/12fe9a14237a6b7e0ba3a8d6fcf254bf4b10ec56a0185f73d651145e9222/pbr-5.1.3-py2.py3-none-any.whl (107kB)
+Requirement already satisfied: six>=1.9 in /usr/lib/python3/dist-packages (from mock) (1.11.0)
+Installing collected packages: pbr, mock
+Successfully installed mock-2.0.0 pbr-5.1.3
