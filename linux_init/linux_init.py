@@ -46,7 +46,7 @@ class LinuxInit():
     # 3.安装第三方库
     def pip_install(self):
         third_libs = ['wget', 'pep8', 'scrapy', 'paramiko', 'django', 'pymongo', 'selenium', 'mysql', 'numpy', 'pandas',
-                      'tensorflow', 'testrepository']
+                      'tensorflow', 'testrepository', 'opencv-python']
         for third_lib in third_libs:
             call("pip install " + third_lib, shell=True)
 
@@ -69,8 +69,8 @@ class LinuxInit():
 
 if __name__ == '__main__':
     init = LinuxInit()
-    # init.update_env()
-    # init.create_directory()
-    # init.install_software()
-    # init.pip_install()
+    init.update_env()
+    init.create_directory()
+    init.install_software()
+    init.pip_install()
     init.download_src()
