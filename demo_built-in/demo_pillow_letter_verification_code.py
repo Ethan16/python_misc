@@ -47,5 +47,5 @@ for t in range(4):
     draw.text((60 * t + 10, 10), rnd_char(), font=font, fill=rnd_color2())
     # draw.text((10, 25), rnd_char(), font=font, fill=rnd_color2())
 
-# image = image.filter(ImageFilter.BLUR)
+image = image.filter(ImageFilter.BLUR)
 image.save('verification_code.jpg', 'jpeg')
